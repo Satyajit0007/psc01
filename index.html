@@ -1,0 +1,39 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="count">
+        <div><p>Batch Count</p></div>
+    </nav>
+    <!-- Dont make any changes here -->
+    <h1><a href="dashboard.html">DASHBOARD</a></h1>
+
+    <div>
+      <!-- ***** We are using form here  ****  -->
+      <form onsubmit="Submit(event)" id="student_data" action="">
+        <label for="">Student Image</label><br />
+        <input id="image" type="text" placeholder="Enter Image URL" /><br />
+        <label for="">Student Name</label><br />
+        <input id="name" type="text" placeholder="Enter Student Name" /><br />
+        <label for="">Batch </label><br />
+        <input id="batch" type="number" placeholder="FT_WEB Batch no."><br />
+        <label for="">Unit</label>
+        <input id="unit" type="number" placeholder="Unit no">
+        <label for="">Course</label>
+        <input id="course" type="text" placeholder="course name">
+        <input type="submit"/>
+      </form>
+     
+    </div>
+  </body>
+</html>
+
+<script src="index.js"></script>
